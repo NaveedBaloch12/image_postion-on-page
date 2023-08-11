@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            opacity: .7;
+        }
+        .text{
+            background-color: rgba(0, 0, 0, 0.596);
+            color: white;
+            padding: 2em;
+            font-size: 1.3em;
+            text-align: center;
+            position: absolute;
+            bottom: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="../class (1).jpg" alt="ClassRoom">
+        </div>
+
+        <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolorem esse fuga enim veritatis beatae? Aspernatur eius eveniet, natus mollitia blanditiis dolores id quis exercitationem labore praesentium tempore, soluta aut?
+        </div>
+    </div>
+</body>
+</html>
